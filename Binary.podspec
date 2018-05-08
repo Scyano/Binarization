@@ -22,21 +22,23 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/want17475186@icloud.com/Binary'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'want17475186@icloud.com' => 'scyano@icloud.com' }
   s.source           = { :git => 'https://github.com/want17475186@icloud.com/Binary.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'Binary/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Binary' => ['Binary/Assets/*.png']
-  # }
+  s.ios.deployment_target = '8.0'
+  if ENV['f']
+      s.vendored_frameworks = 'Binary/Frameworks/Binary.framework'
+  else
+      # '*'指带文件夹, 其他文件将被忽略, '**'指代包含文件夹的所有文件(工程内会创建同名的物理文件夹和 group 文件夹, 造成混乱, 所以建议所有文件都放在同一层级下'*/**', '*/*/**')
+      #  文件会存放于 framework 内的 Resources.bundle 内
+      s.resource_bundles = {
+          'Resources' => ['Binary/Assets/*/*/**']
+      }
+      s.source_files = 'Binary/Classes/**/*'
+#      s.public_header_files = 'Pod/Classes/*/*.h'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

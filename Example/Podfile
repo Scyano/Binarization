@@ -1,11 +1,6 @@
 use_frameworks!
 
 target 'Binary_Example' do
-  pod 'Binary', :path => '../'
+    pod 'Binary', :path => '../'
 
-  target 'Binary_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

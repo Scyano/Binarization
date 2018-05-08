@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import Binary
+import WebKit
+
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let bundle = Bundle(for: MyViewController.self)
+        imageView.image = UIImage(named: "main", in: bundle, compatibleWith: nil)
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +26,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-}
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        let vc = WebViewController()
+        let vc = MyViewController()
+        vc.hello()
+        navigationController?.pushViewController(vc, animated: true)
 
+    }
+}

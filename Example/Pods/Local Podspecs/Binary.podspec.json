@@ -1,0 +1,27 @@
+{
+  "name": "Binary",
+  "version": "0.1.0",
+  "summary": "A short description of Binary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/want17475186@icloud.com/Binary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "want17475186@icloud.com": "scyano@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/want17475186@icloud.com/Binary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resource_bundles": {
+    "Resources": [
+      "Binary/Assets/*/*/**"
+    ]
+  },
+  "source_files": "Binary/Classes/**/*"
+}
