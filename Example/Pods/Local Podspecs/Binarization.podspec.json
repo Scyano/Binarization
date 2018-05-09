@@ -2,7 +2,7 @@
   "name": "Binarization",
   "version": "0.1.0",
   "summary": "A short description of Binarization.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "long description of the pod here.",
   "homepage": "https://github.com/Scyano/Binarization",
   "license": {
     "type": "MIT",
@@ -16,12 +16,22 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "resource_bundles": {
-    "Resources": [
-      "Binarization/Assets/*/**"
-    ]
-  },
-  "source_files": "Binarization/Classes/**/*"
+  "default_subspecs": "Framework",
+  "subspecs": [
+    {
+      "name": "Framework",
+      "vendored_frameworks": "Binarization/Frameworks/Binarization.framework"
+    },
+    {
+      "name": "Core",
+      "source_files": "Binarization/Classes/**/*",
+      "resource_bundles": {
+        "Resources": [
+          "Binarization/Assets/*/**"
+        ]
+      }
+    }
+  ]
 }

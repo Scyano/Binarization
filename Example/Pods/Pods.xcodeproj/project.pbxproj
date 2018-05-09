@@ -8,18 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0816537C395118E211EBF5316835E206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		234FC036C1DEA055E790D369D3645542 /* bigImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A172DBC874404280F86F4A0138F738 /* bigImage.png */; };
-		2403224BB84062C0F7ACACCC9181C957 /* Binarization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F192A2BDC9B0F2D1B81CA09FA47D474C /* Binarization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		424923FBB2DBE612F97F3F288CAE1291 /* BinaryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6EE6BA182165A8B3B4CE99AF4245 /* BinaryRouter.swift */; };
-		50A4B2FAB99E5BDF8927A0746D62BFCD /* internalImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 330EE23765E174A3468A4AD449710F27 /* internalImage.png */; };
+		2403224BB84062C0F7ACACCC9181C957 /* Binarization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B17CF4729A4EF07A221F8124E7949755 /* Binarization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		424923FBB2DBE612F97F3F288CAE1291 /* BinaryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D498519B83E326BE212FDDCA187170 /* BinaryRouter.swift */; };
+		4F2EA3F7B8B9E4AA3134BDB2DA31A8C4 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73AE662D6CEA386A125F4708A9B80818 /* MyViewController.xib */; };
 		7582D130AE6E164063C8E286A9BC95E0 /* Pods-Binarization_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 874EC3EEF4A61789E754BCBA5832FD1E /* Pods-Binarization_Example-dummy.m */; };
 		77EFB89C33B0F4ACF8C37FA10C1DB7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A1B5E370C9AE76A6BC4B1DB336B2832A /* Pods-Binarization_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3442763365FA06B9E323116B4862E266 /* Pods-Binarization_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B702CBFFC0FFE63670292CAFB9BA760A /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45FB03410E4E655F770104F14053EFA8 /* MyViewController.xib */; };
 		C579C35A24E4473F8D153D447BE5EA6B /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EEAF2381126E010F57ECF83EEA52EAC /* Resources.bundle */; };
-		D5AD346CD07A93D4CB54FAB0611178A0 /* Binarization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7306AF09D4BD14902B74147DFB87633D /* Binarization-dummy.m */; };
-		F1A43BF2EE8AD6C0B5214137C54FAAD9 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C051E3FC9EA72058BF6CEF4F57D55 /* MyViewController.swift */; };
-		FC97EFE31BA6C369E5040CC87AA7060C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0D8EE9A6791AB9E4509D7C7119F16F /* Media.xcassets */; };
+		D5AD346CD07A93D4CB54FAB0611178A0 /* Binarization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD025DD809EA8D184BA5C1564F1AAD68 /* Binarization-dummy.m */; };
+		D69D2CEB6829785604CDFBA1405CA90C /* kfc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1611F03199827AEA2CC85480F4023178 /* kfc.png */; };
+		DBEAB49164BF878FB61FDEDD2A1F4C4E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF64FFD45F5E5BDB6164CA95C2A514B0 /* Media.xcassets */; };
+		F1A43BF2EE8AD6C0B5214137C54FAAD9 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520818917F0BB061FA70F38896B1B73F /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,35 +40,34 @@
 
 /* Begin PBXFileReference section */
 		0F0912ADDF6442988E18E2417333B885 /* Pods-Binarization_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Binarization_Example.modulemap"; sourceTree = "<group>"; };
-		186E5D2556E87F10B12E576F9AFCD2F3 /* ResourceBundle-Resources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resources-Info.plist"; sourceTree = "<group>"; };
+		1611F03199827AEA2CC85480F4023178 /* kfc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = kfc.png; sourceTree = "<group>"; };
+		1AC5542E363F93434AD46E010FB333AE /* ResourceBundle-Resources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resources-Info.plist"; sourceTree = "<group>"; };
 		1B3CFF2110B5E18D1088F4A8DB40E4C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B248AAAEFDD55DFD2CF22AEF08AD754 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		330EE23765E174A3468A4AD449710F27 /* internalImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = internalImage.png; sourceTree = "<group>"; };
 		3442763365FA06B9E323116B4862E266 /* Pods-Binarization_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Binarization_Example-umbrella.h"; sourceTree = "<group>"; };
 		44BA2D680B30E6596E689E13F715B680 /* Pods-Binarization_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Binarization_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		45FB03410E4E655F770104F14053EFA8 /* MyViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 		4EF5A5F8C0139D34748DB709E0AE8509 /* Pods-Binarization_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Binarization_Example-resources.sh"; sourceTree = "<group>"; };
-		5103ADEFB594A0FFC98F9F069C20A58D /* Binarization.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Binarization.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		520818917F0BB061FA70F38896B1B73F /* MyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyViewController.swift; path = Binarization/Classes/Sections/MyViewController.swift; sourceTree = "<group>"; };
 		5A0E6581186A2EC86B2005CD23E22C0B /* Binarization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Binarization.framework; path = Binarization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6395FD90E50809E079AEA01634C717A3 /* Binarization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Binarization.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7306AF09D4BD14902B74147DFB87633D /* Binarization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Binarization-dummy.m"; sourceTree = "<group>"; };
-		7C0D8EE9A6791AB9E4509D7C7119F16F /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		7CD21620AC0C6289D4808606995FA5E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		682D3AE355DA7D4A9DFBB5465AFD45C8 /* Binarization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Binarization-prefix.pch"; sourceTree = "<group>"; };
+		69F46844851952BD2CE5FE317FFA5792 /* Binarization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Binarization.modulemap; sourceTree = "<group>"; };
+		73AE662D6CEA386A125F4708A9B80818 /* MyViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		8550B0FADD5C28753269A05110CF7DAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		86E02D8122D77DB9AD5A2E78E12267AA /* Pods-Binarization_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Binarization_Example.release.xcconfig"; sourceTree = "<group>"; };
+		86EDB3383FE8BCA36A1031F0613EB4C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		874EC3EEF4A61789E754BCBA5832FD1E /* Pods-Binarization_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Binarization_Example-dummy.m"; sourceTree = "<group>"; };
-		87FE6EE6BA182165A8B3B4CE99AF4245 /* BinaryRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryRouter.swift; path = Binarization/Classes/Sections/BinaryRouter.swift; sourceTree = "<group>"; };
-		88A172DBC874404280F86F4A0138F738 /* bigImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bigImage.png; sourceTree = "<group>"; };
 		901C251C8A457260A5813D7D0A0F8FB2 /* Pods_Binarization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Binarization_Example.framework; path = "Pods-Binarization_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C0D2751880281588C7F750B26461A6 /* Pods-Binarization_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Binarization_Example-frameworks.sh"; sourceTree = "<group>"; };
 		99FB2352CCB86B0AD470C3B6538AE72D /* Pods-Binarization_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Binarization_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9AE07EAC02E2A4994880D71AF7D72D65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EEAF2381126E010F57ECF83EEA52EAC /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Resources.bundle; path = "Binarization-Resources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B63C051E3FC9EA72058BF6CEF4F57D55 /* MyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyViewController.swift; path = Binarization/Classes/Sections/MyViewController.swift; sourceTree = "<group>"; };
-		B70CC6CCF1CDCE5E04443846CF4D2EAA /* Binarization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Binarization.xcconfig; sourceTree = "<group>"; };
-		B85EE897952D399EE42B6A666F0A161E /* Binarization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Binarization.modulemap; sourceTree = "<group>"; };
-		C56DB13AFD55B973301E66BE3740F35F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCD87A9F7544040C77B1F6871700AA23 /* Binarization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Binarization-prefix.pch"; sourceTree = "<group>"; };
-		F192A2BDC9B0F2D1B81CA09FA47D474C /* Binarization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Binarization-umbrella.h"; sourceTree = "<group>"; };
+		B17CF4729A4EF07A221F8124E7949755 /* Binarization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Binarization-umbrella.h"; sourceTree = "<group>"; };
+		BD025DD809EA8D184BA5C1564F1AAD68 /* Binarization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Binarization-dummy.m"; sourceTree = "<group>"; };
+		C5D498519B83E326BE212FDDCA187170 /* BinaryRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryRouter.swift; path = Binarization/Classes/Sections/BinaryRouter.swift; sourceTree = "<group>"; };
+		DF64FFD45F5E5BDB6164CA95C2A514B0 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FEDD9D9151F0400A03136015B80AAC13 /* Binarization.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Binarization.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FEE9197528D75094AFE47B9676880FBC /* Pods-Binarization_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Binarization_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,46 +98,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06C7FF04F5113605A268DDBCA8471CD1 /* Binarization */ = {
+		11168B28C56FC8E605A24A372AED9FDA /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				87FE6EE6BA182165A8B3B4CE99AF4245 /* BinaryRouter.swift */,
-				B63C051E3FC9EA72058BF6CEF4F57D55 /* MyViewController.swift */,
-				1962D6835CA407A111B3FCD533FB8247 /* Pod */,
-				7A02ABC0E4580E010AEBE035A1EACB76 /* Resources */,
-				CAB65F1B70CD6356F8E1ACEBCB0E075C /* Support Files */,
+				DF64FFD45F5E5BDB6164CA95C2A514B0 /* Media.xcassets */,
 			);
-			name = Binarization;
-			path = ../..;
+			name = Assets;
+			path = Binarization/Assets/Assets;
 			sourceTree = "<group>";
 		};
-		1962D6835CA407A111B3FCD533FB8247 /* Pod */ = {
+		1B8FC79D87B78553A3E96D04729F52F4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5103ADEFB594A0FFC98F9F069C20A58D /* Binarization.podspec */,
-				2B248AAAEFDD55DFD2CF22AEF08AD754 /* LICENSE */,
-				7CD21620AC0C6289D4808606995FA5E1 /* README.md */,
+				CF932A668CA944EE8CB74A370350EBED /* Binarization */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		27ADCA028F578588A07375AB71742BAE /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				88A172DBC874404280F86F4A0138F738 /* bigImage.png */,
-				330EE23765E174A3468A4AD449710F27 /* internalImage.png */,
-			);
-			name = Images;
-			path = Binarization/Assets/Images;
-			sourceTree = "<group>";
-		};
-		2D448E3A2BE0E8767A2869AD798F29B7 /* xib */ = {
-			isa = PBXGroup;
-			children = (
-				45FB03410E4E655F770104F14053EFA8 /* MyViewController.xib */,
-			);
-			name = xib;
-			path = Binarization/Assets/xib;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4968A25A0CD1F582413E9F2875DB9F7A /* Pods-Binarization_Example */ = {
@@ -160,12 +133,23 @@
 			path = "Target Support Files/Pods-Binarization_Example";
 			sourceTree = "<group>";
 		};
-		503B86B6F012336EA8FD6A635D92B694 /* Development Pods */ = {
+		516EB182015D879AEAE4678565A656F8 /* xib */ = {
 			isa = PBXGroup;
 			children = (
-				06C7FF04F5113605A268DDBCA8471CD1 /* Binarization */,
+				73AE662D6CEA386A125F4708A9B80818 /* MyViewController.xib */,
 			);
-			name = "Development Pods";
+			name = xib;
+			path = Binarization/Assets/xib;
+			sourceTree = "<group>";
+		};
+		5590706C3A9A9F6BBB56D7BDAA8D0E4F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEDD9D9151F0400A03136015B80AAC13 /* Binarization.podspec */,
+				8550B0FADD5C28753269A05110CF7DAE /* LICENSE */,
+				86EDB3383FE8BCA36A1031F0613EB4C7 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		64E063204979B646ADED7011ABDEE4D4 /* Products */ = {
@@ -178,25 +162,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A02ABC0E4580E010AEBE035A1EACB76 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C9A328E6BC33B815CCF39C7775F881F4 /* Assets */,
-				27ADCA028F578588A07375AB71742BAE /* Images */,
-				2D448E3A2BE0E8767A2869AD798F29B7 /* xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				503B86B6F012336EA8FD6A635D92B694 /* Development Pods */,
+				1B8FC79D87B78553A3E96D04729F52F4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				64E063204979B646ADED7011ABDEE4D4 /* Products */,
 				C2F214F1F80E047C8A1E99FF9E2B051F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		870C973063DD1BC4994C4C0DD4F9738E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69F46844851952BD2CE5FE317FFA5792 /* Binarization.modulemap */,
+				6395FD90E50809E079AEA01634C717A3 /* Binarization.xcconfig */,
+				BD025DD809EA8D184BA5C1564F1AAD68 /* Binarization-dummy.m */,
+				682D3AE355DA7D4A9DFBB5465AFD45C8 /* Binarization-prefix.pch */,
+				B17CF4729A4EF07A221F8124E7949755 /* Binarization-umbrella.h */,
+				9AE07EAC02E2A4994880D71AF7D72D65 /* Info.plist */,
+				1AC5542E363F93434AD46E010FB333AE /* ResourceBundle-Resources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Binarization";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -215,28 +204,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C9A328E6BC33B815CCF39C7775F881F4 /* Assets */ = {
+		CF932A668CA944EE8CB74A370350EBED /* Binarization */ = {
 			isa = PBXGroup;
 			children = (
-				7C0D8EE9A6791AB9E4509D7C7119F16F /* Media.xcassets */,
+				DB4CDC25CE9C3AA61D312056F4339E16 /* Core */,
+				5590706C3A9A9F6BBB56D7BDAA8D0E4F /* Pod */,
+				870C973063DD1BC4994C4C0DD4F9738E /* Support Files */,
 			);
-			name = Assets;
-			path = Binarization/Assets/Assets;
-			sourceTree = "<group>";
-		};
-		CAB65F1B70CD6356F8E1ACEBCB0E075C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B85EE897952D399EE42B6A666F0A161E /* Binarization.modulemap */,
-				B70CC6CCF1CDCE5E04443846CF4D2EAA /* Binarization.xcconfig */,
-				7306AF09D4BD14902B74147DFB87633D /* Binarization-dummy.m */,
-				DCD87A9F7544040C77B1F6871700AA23 /* Binarization-prefix.pch */,
-				F192A2BDC9B0F2D1B81CA09FA47D474C /* Binarization-umbrella.h */,
-				C56DB13AFD55B973301E66BE3740F35F /* Info.plist */,
-				186E5D2556E87F10B12E576F9AFCD2F3 /* ResourceBundle-Resources-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Binarization";
+			name = Binarization;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -245,6 +221,35 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6CA4D2E6A3AD013FF9C1902CE3CE713 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11168B28C56FC8E605A24A372AED9FDA /* Assets */,
+				D8DEEFDD97D79C69DF158C17D1F04825 /* Images */,
+				516EB182015D879AEAE4678565A656F8 /* xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8DEEFDD97D79C69DF158C17D1F04825 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1611F03199827AEA2CC85480F4023178 /* kfc.png */,
+			);
+			name = Images;
+			path = Binarization/Assets/Images;
+			sourceTree = "<group>";
+		};
+		DB4CDC25CE9C3AA61D312056F4339E16 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C5D498519B83E326BE212FDDCA187170 /* BinaryRouter.swift */,
+				520818917F0BB061FA70F38896B1B73F /* MyViewController.swift */,
+				D6CA4D2E6A3AD013FF9C1902CE3CE713 /* Resources */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +299,7 @@
 			buildPhases = (
 				552677417D5A955F2E385DE913ECA1C4 /* Sources */,
 				1D2B0FACD6A616B9359BB66A7CABE7CF /* Frameworks */,
-				A1269BBFF5D940C6BCE40D20D0F9FA15 /* Resources */,
+				8701F441BED19C3D6DE9A64CCE61C411 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -360,14 +365,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1269BBFF5D940C6BCE40D20D0F9FA15 /* Resources */ = {
+		8701F441BED19C3D6DE9A64CCE61C411 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				234FC036C1DEA055E790D369D3645542 /* bigImage.png in Resources */,
-				50A4B2FAB99E5BDF8927A0746D62BFCD /* internalImage.png in Resources */,
-				FC97EFE31BA6C369E5040CC87AA7060C /* Media.xcassets in Resources */,
-				B702CBFFC0FFE63670292CAFB9BA760A /* MyViewController.xib in Resources */,
+				D69D2CEB6829785604CDFBA1405CA90C /* kfc.png in Resources */,
+				DBEAB49164BF878FB61FDEDD2A1F4C4E /* Media.xcassets in Resources */,
+				4F2EA3F7B8B9E4AA3134BDB2DA31A8C4 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,38 +421,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20469A926A987E8B8CA1FD690905539B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B70CC6CCF1CDCE5E04443846CF4D2EAA /* Binarization.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Binarization/Binarization-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Binarization/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Binarization/Binarization.modulemap";
-				PRODUCT_MODULE_NAME = Binarization;
-				PRODUCT_NAME = Binarization;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3049565B465CFDD20A6066C250557F42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86E02D8122D77DB9AD5A2E78E12267AA /* Pods-Binarization_Example.release.xcconfig */;
@@ -484,21 +456,21 @@
 			};
 			name = Release;
 		};
-		511D9F8D09C80CA091BB7224EEE07B2A /* Debug */ = {
+		57C25AD016FB051A851327065384960A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B70CC6CCF1CDCE5E04443846CF4D2EAA /* Binarization.xcconfig */;
+			baseConfigurationReference = 6395FD90E50809E079AEA01634C717A3 /* Binarization.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Binarization";
 				INFOPLIST_FILE = "Target Support Files/Binarization/ResourceBundle-Resources-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = Resources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		78D12810E52C5409F0591A2A00DFD017 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -598,6 +570,87 @@
 			};
 			name = Debug;
 		};
+		8C234522782C863B8E2302F40A57242A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6395FD90E50809E079AEA01634C717A3 /* Binarization.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Binarization/Binarization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Binarization/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Binarization/Binarization.modulemap";
+				PRODUCT_MODULE_NAME = Binarization;
+				PRODUCT_NAME = Binarization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F664BDD30CDF1B0A70F244D56CB2422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6395FD90E50809E079AEA01634C717A3 /* Binarization.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Binarization";
+				INFOPLIST_FILE = "Target Support Files/Binarization/ResourceBundle-Resources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B04F82D02A7B896100C3177DB9B555EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6395FD90E50809E079AEA01634C717A3 /* Binarization.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Binarization/Binarization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Binarization/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Binarization/Binarization.modulemap";
+				PRODUCT_MODULE_NAME = Binarization;
+				PRODUCT_NAME = Binarization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -656,55 +709,6 @@
 			};
 			name = Release;
 		};
-		D3C71DAEA8072318C1087FDDD8F281FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B70CC6CCF1CDCE5E04443846CF4D2EAA /* Binarization.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Binarization";
-				INFOPLIST_FILE = "Target Support Files/Binarization/ResourceBundle-Resources-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Resources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		FA8707E8E2FE3DE3C92697AECAF14ACB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B70CC6CCF1CDCE5E04443846CF4D2EAA /* Binarization.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Binarization/Binarization-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Binarization/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Binarization/Binarization.modulemap";
-				PRODUCT_MODULE_NAME = Binarization;
-				PRODUCT_NAME = Binarization;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -720,8 +724,8 @@
 		B0F20DBF3D21A3A2591A6F732DD09ADB /* Build configuration list for PBXNativeTarget "Binarization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20469A926A987E8B8CA1FD690905539B /* Debug */,
-				FA8707E8E2FE3DE3C92697AECAF14ACB /* Release */,
+				B04F82D02A7B896100C3177DB9B555EE /* Debug */,
+				8C234522782C863B8E2302F40A57242A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -729,8 +733,8 @@
 		C1DEEFAFA04C5F637BD9F93AAB5B91B5 /* Build configuration list for PBXNativeTarget "Binarization-Resources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				511D9F8D09C80CA091BB7224EEE07B2A /* Debug */,
-				D3C71DAEA8072318C1087FDDD8F281FD /* Release */,
+				8F664BDD30CDF1B0A70F244D56CB2422 /* Debug */,
+				57C25AD016FB051A851327065384960A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

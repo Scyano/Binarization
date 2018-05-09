@@ -1,6 +1,10 @@
 use_frameworks!
 
 target 'Binarization_Example' do
-    pod 'Binarization', :path => '../'
+    #pod source files
+    pod 'Binarization/Core', :path => '../'
+    
+    #pod framework
+    #pod 'Binarization', :path => '../'
 
 end

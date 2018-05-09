@@ -20,19 +20,25 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bigImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="k0h-ef-Hkt">
-                    <rect key="frame" x="141" y="308.5" width="93" height="50"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kfc.png" translatesAutoresizingMaskIntoConstraints="NO" id="k0h-ef-Hkt">
+                    <rect key="frame" x="146.5" y="293.5" width="82" height="80"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="innerImage" translatesAutoresizingMaskIntoConstraints="NO" id="vwJ-d4-IoP">
+                    <rect key="frame" x="66" y="383.5" width="242" height="38"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="k0h-ef-Hkt" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="GKW-Cd-kd3"/>
                 <constraint firstItem="k0h-ef-Hkt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="UaH-Be-nEd"/>
+                <constraint firstItem="vwJ-d4-IoP" firstAttribute="top" secondItem="k0h-ef-Hkt" secondAttribute="bottom" constant="10" id="hna-cJ-ECQ"/>
+                <constraint firstItem="vwJ-d4-IoP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wLt-Ee-fxJ"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>
     <resources>
-        <image name="bigImage.png" width="93" height="50"/>
+        <image name="innerImage" width="242" height="38"/>
+        <image name="kfc.png" width="82" height="80"/>
     </resources>
 </document>

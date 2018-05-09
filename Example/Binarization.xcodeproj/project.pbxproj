@@ -57,7 +57,6 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		FEE156A320934708004007EC /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		FEE156CD20934718004007EC /* Binary_Example copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Binary_Example copy-Info.plist"; path = "/Users/Scyano/Desktop/Binary/Example/Binary_Example copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +84,6 @@
 		29F95158889B7F0190DE995C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FEE156A320934708004007EC /* IntentsUI.framework */,
 				443FCE89C873FF75F24FBA69 /* Pods_Binarization_Example.framework */,
 			);
 			name = Frameworks;
@@ -171,9 +169,8 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D4174C2A0C7E761DA7D4B342 /* [CP] Embed Pods Frameworks */,
-				FEE1567320932D46004007EC /* ShellScript */,
 				FEE156B820934708004007EC /* Embed App Extensions */,
+				F734D906051E2290EB7AA5E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,7 +253,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D4174C2A0C7E761DA7D4B342 /* [CP] Embed Pods Frameworks */ = {
+		F734D906051E2290EB7AA5E5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,20 +269,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Binarization_Example/Pods-Binarization_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FEE1567320932D46004007EC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/build.sh ${PROJECT_NAME} ${CONFIGURATION}\n";
 			showEnvVarsInLog = 0;
 		};
 		FEE156D920934C4C004007EC /* ShellScript */ = {
