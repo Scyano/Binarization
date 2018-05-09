@@ -1,4 +1,4 @@
-# Binary
+# Binarization
 
 [![CI Status](http://img.shields.io/travis/want17475186@icloud.com/Binary.svg?style=flat)](https://travis-ci.org/want17475186@icloud.com/Binary)
 [![Version](https://img.shields.io/cocoapods/v/Binary.svg?style=flat)](http://cocoapods.org/pods/Binary)
@@ -17,7 +17,7 @@ Binary is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Binary'
+pod 'Binarization'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ Scyano, scyano@icloud.com
 
 ## License
 
-Binary is available under the MIT license. See the LICENSE file for more info.
+Binarization is available under the MIT license. See the LICENSE file for more info.
