@@ -1,16 +1,16 @@
 PODS:
-  - Binary (0.1.0)
+  - Binarization (0.1.0)
 
 DEPENDENCIES:
-  - Binary (from `../`)
+  - Binarization (from `../`)
 
 EXTERNAL SOURCES:
-  Binary:
+  Binarization:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Binary: e5d1465fd2795bc69e1392caabf02c18014d6ed3
+  Binarization: 50180531ad5298fa2f4282e08ccb7f0fce8d3c93
 
-PODFILE CHECKSUM: 45ebd5ffc81891053e88dd5ffcae08a4adc8d8de
+PODFILE CHECKSUM: 3e2d5374557e85f32fe1ff5e99d06ada98140730
 
 COCOAPODS: 1.5.0

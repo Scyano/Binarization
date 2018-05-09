@@ -1,0 +1,27 @@
+{
+  "name": "Binarization",
+  "version": "0.1.0",
+  "summary": "A short description of Binarization.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Scyano/Binarization",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Scyano": "scyano@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/Scyano/Binarization.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resource_bundles": {
+    "Resources": [
+      "Binarization/Assets/*/**"
+    ]
+  },
+  "source_files": "Binarization/Classes/**/*"
+}

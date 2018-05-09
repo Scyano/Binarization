@@ -1,0 +1,6 @@
+framework module Binarization {
+  umbrella header "Binarization-umbrella.h"
+
+  export *
+  module * { export * }
+}

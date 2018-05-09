@@ -1,6 +1,6 @@
 use_frameworks!
 
-target 'Binary_Example' do
-    pod 'Binary', :path => '../'
+target 'Binarization_Example' do
+    pod 'Binarization', :path => '../'
 
 end

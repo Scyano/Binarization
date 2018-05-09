@@ -1,0 +1,11 @@
+framework module Binarization {
+  umbrella header "Binarization-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Binarization.Swift {
+    header "Binarization-Swift.h"
+    requires objc
+}

@@ -22,7 +22,7 @@ pod 'Binary'
 
 ## Author
 
-want17475186@icloud.com, scyano@icloud.com
+Scyano, scyano@icloud.com
 
 ## License
 
